@@ -38,7 +38,7 @@ var time = 10;
 $("#start-btn").on("click", function () {
     console.log("Quiz Start");
     $("#end-button-disp").html("<button type='submit' class='uk-button-large' id='submit-button1'>HIT THIS BUTTON WHEN COMPLETE!!!</button>");
-    // $("#scorecard").empty();
+    $("#scorecard").empty();
     $("#scorecard").append("Number Right: " + right);
     $("#scorecard").append("<br> Number Wrong: " + wrong);
     $("#scorecard").append("<br> <div class='py-5' id='timer'> <h2> Time Remaining <hr> <h3><div id='time'> </h3>");
