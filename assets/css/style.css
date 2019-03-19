@@ -1,3 +1,13 @@
 body{
+    /* background: linear-gradient(#333333, #eeee , rgba(189, 241, 239, 0.933)); */
+    background-image: url("../images/asfalt-dark.png"), linear-gradient(#333333, #eeee , rgba(189, 241, 239, 0.933));
     min-height: 700px;
+}
+
+#top-card{
+    margin-top: 5%;
+}
+
+#submit-button1{
+    
 }
